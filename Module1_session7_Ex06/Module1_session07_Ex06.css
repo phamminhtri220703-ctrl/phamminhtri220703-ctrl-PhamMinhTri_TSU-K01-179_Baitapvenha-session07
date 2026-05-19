@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Phần Header */
+.container .title{
+    display: flex;
+    background-color: black;
+    height: calc(10% - 10px);
+    justify-content: space-around;
+    padding: 5px 0;
+}   
+
+.title .myblog{
+    color: white;
+}
+
+.title .link nav{
+    display: flex;
+    gap: 30px;
+    padding: 8px 0;
+}   
+
+.title .link nav a{
+    text-decoration: none;
+    color: white;
+}
+/* Phần Main */
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 450px;
+    height: calc(80% - 10px);
+    gap:10px
+}
+
+.content .content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: calc(40% - 10px);
+    background-color: rgb(233, 228, 220);
+    border-radius: 10px;
+    padding: 10px;
+}
+.content .content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: calc(60% - 10px);
+    background-color: rgb(233, 228, 220);
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Phần Footer */
+.last{
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: calc(10% - 10px);
+}
